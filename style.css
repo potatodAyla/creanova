@@ -1,9 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "PT Sans", sans-serif;
 }
 
 .bg-navbar {
   background-color: #423e37;
+}
+.navbar {
+  padding: 15px;
 }
 
 .navbar a {
@@ -14,13 +20,35 @@ body {
 }
 .active {
   color: #fff !important;
+  font-weight: bold;
   border-bottom: 2px solid #fff;
 }
 .nav-link:hover {
   border-bottom: 2px solid #fff;
 }
 
+.underline-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding-bottom: 25px;
+}
 /* slider  */
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bi-joystick {
+  color: #e7b281;
+}
+.form-control {
+  outline: none;
+}
+
+/* footer section  */
+.bg-footer {
+  background-color: #edebd7;
+}
+
+footer a {
+  color: #e6b73c;
 }
